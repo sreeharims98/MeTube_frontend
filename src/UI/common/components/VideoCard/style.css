@@ -1,0 +1,11 @@
+.VideoCard:hover > .play-btn {
+  display: block;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.VideoCard:hover > video {
+  filter: brightness(0.4);
+  transition: all ease-in-out 0.3s;
+}
